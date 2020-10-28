@@ -1,0 +1,65 @@
+.body {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    z-index: 99;
+    position: fixed;
+    width: 50%;
+    align-items: center;
+    padding-top: 1em;;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background-color: gray;
+    position: fixed;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.jobTitle {
+    position: fixed;
+    z-index: 3;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    transform: rotate(-90deg);
+    left: -1em;
+    top: 50%;
+}
+
+.box {
+    position: absolute;
+    height: 100%;
+    width: 45%;
+    z-index: 2;
+    background-color: #7ed40c;
+    /*bottom: -30px;*/
+    transform: skew(-35deg);
+    right: 10%;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+nav a {
+    padding-right: 2em;
+    padding-left: 2em;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+
+}
